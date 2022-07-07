@@ -1,5 +1,7 @@
 /node_modules
 /docs
+/coverage
 database.sqlite
 TODO.md
 ARCHITECTURE.md
+.env
