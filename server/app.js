@@ -4,7 +4,7 @@ const productRoutes = require('./routes/products');
 const { errorHandler, verifyToken } = require('./middleware')
 const authHandlers = require('./handlers/auth')
 const mathHandlers = require('./handlers/math')
-
+const assignmentHandlers = require('./handlers/assignment')
 
 const app = express();
 
@@ -16,6 +16,12 @@ app.use('/api/merchants', merchantRoutes);
 app.use('/api/merchants/:merchantId/products', productRoutes);
 
 app.post('/checkoddeven', mathHandlers.checkOddEven);
+app.post('/sum', mathHandlers.sum);
+app.get('/get-zero', mathHandlers.getZero);
+app.get('/is-21-century', mathHandlers.is21Century);
+
+app.get('/is-weekend', assignmentHandlers.isWeekend);
+app.get('/is-leap-year', assignmentHandlers.isLeapYear);
 
 app.use(errorHandler);
 app.use('*', (req, res, next) => {

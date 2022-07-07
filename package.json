@@ -6,7 +6,8 @@
   "scripts": {
     "start": "set NODE_ENV=production && node index",
     "dev": "nodemon index",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "test-coverage": "jest --coverage"
   },
   "author": "mabdh",
   "license": "ISC",

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1656906935420" clover="3.2.0">
+  <project timestamp="1656906935420" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4" elements="24" coveredelements="24" complexity="0" loc="15" ncloc="15" packages="2" files="2" classes="2"/>
+    <package name="server.handlers">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="assignment.js" path="C:\Users\Thinkpad\OneDrive\Documents\BOOTCAMP\Kelas\Day-39\backend-test\server\handlers\assignment.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="storage.models">
+      <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <file name="assignment.model.js" path="C:\Users\Thinkpad\OneDrive\Documents\BOOTCAMP\Kelas\Day-39\backend-test\storage\models\assignment.model.js">
+        <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
